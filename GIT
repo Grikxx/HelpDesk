@@ -1,0 +1,10 @@
+Basics
+    "git clone <link>"{
+        Used to clone a Github Repo in VS Code
+    }
+
+    "git status"{
+        Show modified files in working directory, staged for your next commit
+    }
+
+    
