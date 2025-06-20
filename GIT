@@ -1,5 +1,5 @@
 Basics
-    "git clone <link>"{
+    "git clone [link]"{
         Used to clone a Github Repo in VS Code
     }
 
@@ -7,4 +7,25 @@ Basics
         Show modified files in working directory, staged for your next commit
     }
 
-    
+    "git add [file]"{
+        Add a file as it looks now to your next commit (stage)
+    }
+
+    "git init"{
+        initialize an existing directory as a Git repository
+    }
+
+    "git commit -m "Msg""{
+        commit your staged content as a new commit snapshot 
+    }
+
+    "git push {-u} [alias] [branch]"{
+        Transmit local branch commits to the remote repository branch
+        -u     : Upstream (for making a default)
+        alias  : Generally Origin
+        branch : Generally Main
+    }
+
+    "git pull"{
+        fetch and merge any commits from the tracking remote branch
+    }
