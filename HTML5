@@ -1,0 +1,48 @@
+"<html>"{
+        Starter
+    }
+
+"<title>"{
+        title of Webpage
+    }
+
+"<body>"{
+        Body
+    }
+
+"<head>"{
+        Head, where all meta data is putted    
+}
+
+"<div>"{
+        Create Divisions
+}
+
+"<span>"{
+        inlines Divisions   
+}
+
+"<h1/2/3/4/5/6>"{
+        Headings
+}
+
+"<b/i/u>"{
+        Bold / Italics / Underlines  
+}
+
+"<a href="Links" target="_blank">"{
+        ancor tag
+        _blank	        Opens the linked document in a new window or tab
+        _self	        Opens the linked document in the same frame as it was clicked (this is default)
+        _parent     	Opens the linked document in the parent frame
+        _top	        Opens the linked document in the full body of the window
+        framename	    Opens the linked document in the named iframe     
+}
+
+"<img src="Imgs" width="x">"{
+        Images
+}
+
+"<input type="text" placeholder="Text...">"{
+        Input the values
+}    45:51
