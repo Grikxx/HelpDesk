@@ -1,48 +1,203 @@
-"<html>"{
-        Starter
-    }
+Basics
+        "<html>"{
+                Starter
+            }
 
-"<title>"{
-        title of Webpage
-    }
+        "<title>"{
+                title of Webpage
+            }
 
-"<body>"{
-        Body
-    }
+        "<body>"{
+                Body
+            }
 
-"<head>"{
-        Head, where all meta data is putted    
-}
+        "<head>"{
+                Head, where all meta data is putted    
+        }
 
-"<div>"{
-        Create Divisions
-}
+        "<div>"{
+                Create Divisions
+        }
 
-"<span>"{
-        inlines Divisions   
-}
+        "<span>"{
+                inlines Divisions   
+        }
 
-"<h1/2/3/4/5/6>"{
-        Headings
-}
+        "<h1/2/3/4/5/6>"{
+                Headings
+        }
 
-"<b/i/u>"{
-        Bold / Italics / Underlines  
-}
+        "<b/i/u>"{
+                Bold / Italics / Underlines  
+        }
 
-"<a href="Links" target="_blank">"{
-        ancor tag
-        _blank	        Opens the linked document in a new window or tab
-        _self	        Opens the linked document in the same frame as it was clicked (this is default)
-        _parent     	Opens the linked document in the parent frame
-        _top	        Opens the linked document in the full body of the window
-        framename	    Opens the linked document in the named iframe     
-}
+        "<a href="Links" target="_blank">"{
+                ancor tag
+                _blank	        Opens the linked document in a new window or tab
+                _self	        Opens the linked document in the same frame as it was clicked (this is default)
+                _parent     	Opens the linked document in the parent frame
+                _top	        Opens the linked document in the full body of the window
+                framename	Opens the linked document in the named iframe     
+        }
 
-"<img src="Imgs" width="x">"{
-        Images
-}
+        "<img src="Imgs" width="x">"{
+                Images
+        }
 
-"<input type="text" placeholder="Text...">"{
-        Input the values
-}    45:51
+        "<input type='' name='' value='' placeholder='' required readonly disabled maxlength='' minlength='' min='' max='' step='' checked multiple autofocus autocomplete='' pattern='' size='' form=''>"{
+
+                type{
+                text            → Single-line text field (default)
+                password        → Text field that hides entered characters
+                email           → Field for email addresses (with validation)
+                number          → Field for numeric input (with min/max/step)
+                tel             → Field for telephone numbers
+                url             → Field for website URLs
+                search          → Search field with clear option (UI-specific)
+                date            → Date picker
+                time            → Time picker
+                datetime-local  → Date and time picker (no timezone)
+                month           → Month and year picker
+                week            → Week picker
+                color           → Color picker
+                checkbox        → Checkbox option
+                radio           → Radio button (choose one from a group)
+                range           → Slider control
+                file            → File upload field
+                hidden          → Hidden input field (not visible)
+                button          → Generic button
+                submit          → Button to submit the form
+                reset           → Button to reset form fields
+            }
+
+            name{
+                Specifies the name of the input (sent with form data)
+            }
+
+            value{
+                Defines the initial value of the input field
+            }
+
+            placeholder{
+                Shows hint text inside the input until user types
+            }
+
+            required{
+                Makes input field mandatory before submitting form
+            }
+
+            readonly{
+                Field is not editable, but value is visible
+            }
+
+            disabled{
+                Field is disabled and cannot be used
+            }
+
+            maxlength{
+                Maximum number of characters allowed
+            }
+
+            minlength{
+                Minimum number of characters required
+            }
+
+            min{
+                Minimum value for number/date inputs
+            }
+
+            max{
+                Maximum value for number/date inputs
+            }
+
+            step{
+                Defines increment step for number/range inputs
+            }
+
+            checked{
+                Pre-selects checkbox or radio button
+            }
+
+            multiple{
+                Allows multiple file selection or multiple values (like in email input)
+            }
+
+            autofocus{
+                Automatically focuses on this input when page loads
+            }
+
+            autocomplete{
+                Suggests saved values (on/off or attribute values)
+            }
+
+            pattern{
+                Defines a regex pattern that input must match
+            }
+
+            size{
+                Specifies the width of the input (in characters)
+            }
+
+            form{
+                Links input to a specific <form> by its id
+            }
+        }
+        "<button type='' name='' value='' disabled autofocus form='' formaction='' formenctype='' formmethod='' formnovalidate formtarget=''>"{
+            type{
+                button   → Generic button (default, does nothing unless scripted)
+                submit   → Submits the form data
+                reset    → Resets all form fields to their initial values
+            }
+    
+            name{
+                Defines the name of the button (sent with form data)
+            }
+    
+            value{
+                Defines the initial value of the button (sent with form data if type="submit")
+            }
+    
+            disabled{
+                Disables the button, making it unclickable
+            }
+    
+            autofocus{
+                Automatically focuses on this button when page loads
+            }
+    
+            form{
+                Links the button to a specific <form> by its id
+            }
+    
+            formaction{
+                URL to send form data when this button is clicked (overrides form action)
+            }
+    
+            formenctype{
+                How form data should be encoded (overrides form enctype)
+                application/x-www-form-urlencoded  → Default encoding
+                multipart/form-data                → For file uploads
+                text/plain                         → Plain text
+            }
+    
+            formmethod{
+                HTTP method used when form is submitted (overrides form method)
+                get   → Sends form data as URL parameters
+                post  → Sends form data in request body
+            }
+    
+            formnovalidate{
+                Skips form validation when submitting with this button
+            }
+    
+            formtarget{
+                Where to display the response (overrides form target)
+                _self    → Opens in the same tab (default)
+                _blank   → Opens in a new tab
+                _parent  → Opens in the parent frame
+                _top     → Opens in the full window
+                framename→ Opens in a named iframe
+            }
+        }
+        
+        
