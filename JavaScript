@@ -2,124 +2,131 @@ Basics
     "var"{
         Declares a variable (function-scoped, can be re-declared and updated)
     }
-    
+
     "let"{
         Declares a block-scoped variable (can be updated but not re-declared in same scope)
     }
-    
+
     "const"{
         Declares a block-scoped constant (cannot be updated or re-declared)
     }
-    
+
     "console.log()"{
         Prints output to the browser console
     }
-    
+
     "alert()"{
         Displays a popup alert box with a message
     }
-    
+
     "prompt()"{
         Asks user for input with a popup and returns the entered value
     }
-    
+
     "confirm()"{
         Shows a popup with OK/Cancel, returns true or false
     }
-    
+
     "typeof"{
         Returns the type of a variable (string, number, boolean, object, etc.)
     }
-    
+
     "=="{
         Compares two values (loose equality, converts types if needed)
     }
-    
+
     "==="{
         Compares two values (strict equality, no type conversion)
     }
-    
+
     "if...else"{
         Conditional statement that executes code blocks based on conditions
     }
-    
+
     "switch"{
         Used for multiple condition checks instead of many if...else
     }
-    
+
     "for"{
-        Loop that repeats code for a defined number of times
+    A loop with initialization, condition, and update in one line
+    Syntax:
+        for (initialization; condition; update) {
+            // code to run
+        }
     }
-    
+
     "while"{
-        Loop that runs while a condition is true
+    A loop that keeps running as long as the condition is true
+    Syntax:
+        while (condition) {
+            // code to run
+        }
     }
-    
+
     "do...while"{
         Loop that runs at least once before checking the condition
     }
-    
+
     "function"{
         Defines a reusable block of code
     }
-    
+
     "return"{
         Returns a value from a function
     }
-    
+
     "()"{
         Used to call/execute a function
     }
-    
+
     "[]"{
         Defines an array (ordered list of values)
     }
-    
+
     "{}"{
         Defines an object (key-value pairs)
     }
-    
+
     "."{
         Accesses object properties (object.property)
     }
-    
+
     "document.getElementById()"{
         Selects an element by its ID
     }
-    
+
     "document.querySelector()"{
         Selects the first element matching a CSS selector
     }
-    
+
     "document.querySelectorAll()"{
         Selects all elements matching a CSS selector (returns NodeList)
     }
-    
+
     "addEventListener()"{
         Attaches an event handler (like click, input, mouseover) to an element
     }
-    
+
     "setTimeout()"{
         Runs code once after a delay (in milliseconds)
     }
-    
+
     "setInterval()"{
         Repeats code at regular time intervals
     }
-    
+
     "Math.random()"{
         Returns a random number between 0 (inclusive) and 1 (exclusive)
     }
-    
+
     "Math.floor()"{
         Rounds a number down to the nearest integer
     }
-    
+
     "Math.ceil()"{
         Rounds a number up to the nearest integer
     }
-    
+
     "Math.round()"{
         Rounds a number to the nearest integer
     }
-    
