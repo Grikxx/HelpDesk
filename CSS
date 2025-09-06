@@ -1,0 +1,842 @@
+Colors & Backgrounds
+
+    "color"{
+        Sets the text color of an element
+    }
+
+    "background-color"{
+        Sets the background color of an element
+    }
+
+    "background-image"{
+        Sets a background image for an element
+    }
+
+    "background-size"{
+        Specifies the size of the background image (cover, contain, auto)
+    }
+
+    "background-position"{
+        Defines the position of the background image
+    }
+
+    "background-repeat"{
+        Defines if/how the background image is repeated
+    }
+
+    "background-attachment"{
+        Defines whether background scrolls (scroll, fixed, local)
+    }
+
+    "background-clip"{
+        Defines painting area of the background (border-box, padding-box, content-box)
+    }
+
+Text & Fonts
+    "font-family"{
+
+        Specifies the font of the text
+    }
+
+    "font-size"{
+        Sets the size of the font
+    }
+
+    "font-weight"{
+        Defines the thickness of the font (normal, bold, 100–900)
+    }
+
+    "font-style"{
+        Defines the style of the font (normal, italic, oblique)
+    }
+
+    "font-variant"{
+        Defines small-caps text
+    }
+
+    "text-align"{
+        Specifies the horizontal alignment of text (left, right, center, justify)
+    }
+
+    "text-decoration"{
+        Adds decoration to text (underline, line-through, none)
+    }
+
+    "text-transform"{
+        Controls capitalization (uppercase, lowercase, capitalize)
+    }
+
+    "line-height"{
+        Sets the height of each line of text
+    }
+
+    "letter-spacing"{
+        Controls the space between letters
+    }
+
+    "word-spacing"{
+        Controls the space between words
+    }
+
+    "text-shadow"{
+        Adds shadow to text
+    }
+
+    "white-space"{
+        Controls text wrapping (normal, nowrap, pre, pre-line, pre-wrap)
+    }
+
+    "overflow-wrap"{
+        Defines if long words break (normal, break-word)
+    }
+
+    "cursor"{
+        Defines the type of mouse cursor displayed when hovering over an element
+        "auto" { Default cursor based on the browser/user agent }
+        "default" { Standard arrow }
+        "pointer" { Hand icon, usually for links/buttons }
+        "text" { Text selection (I-beam) }
+        "move" { Move cursor (4-way arrow) }
+        "crosshair" { Crosshair cursor }
+        "wait" { Loading indicator (hourglass/spinner) }
+        "help" { Help indicator (question mark) }
+        "not-allowed" { A circle with a line, indicates action is forbidden }
+        "progress" { Indicates ongoing process (arrow + spinner) }"zoom-in" { Magnifying glass with plus sign }
+        "zoom-out" { Magnifying glass with minus sign }
+        "grab" { Open hand (draggable element) }
+        "grabbing" { Closed hand (while dragging) }
+        "none" { Hides the cursor }
+    }
+
+Flexbox
+
+    "display: flex"{
+        Enables flexbox layout
+    }
+
+    "flex-direction"{
+        Defines direction of flex items (row, column, row-reverse, column-reverse)
+    }
+
+    "flex-wrap"{
+        Defines if items wrap (nowrap, wrap, wrap-reverse)
+    }
+
+    "justify-content"{
+        Aligns flex items horizontally (flex-start, center, space-between, space-around, space-evenly)
+    }
+
+    "align-items"{
+        Aligns flex items vertically (flex-start, center, stretch, baseline)
+    }
+
+    "align-content"{
+        Aligns multi-line flex containers
+    }
+
+    "flex"{
+        Shorthand for grow, shrink, basis
+    }
+
+    "order"{
+        Defines the order of flex items
+    }
+
+Box Model
+
+    "width"{
+        Defines the width of an element
+    }
+
+    "height"{
+        Defines the height of an element
+    }
+
+    "max-width"{
+        Maximum width of an element
+    }
+
+    "max-height"{
+        Maximum height of an element
+    }
+
+    "min-width"{
+        Minimum width of an element
+    }
+
+    "min-height"{
+        Minimum height of an element
+    }
+
+    "margin"{
+        Space outside the element
+    }
+
+    "padding"{
+        Space inside the element, between content and border
+    }
+
+    "border"{
+        Shorthand to set border width, style, and color
+    }
+
+    "border-radius"{
+        Rounds the corners of an element
+    }
+
+    "box-sizing"{
+        Defines how width/height are calculated (content-box, border-box)
+    }
+
+    "overflow"{
+        Controls what happens to content that overflows (visible, hidden, scroll, auto)
+    }
+
+    "overflow-x / overflow-y"{
+        Controls overflow separately for x/y axis
+    }
+
+Positioning & Display
+
+    "display"{
+        Specifies display behavior of an element (block, inline, flex, grid, none)
+    }
+
+    "position"{
+        Defines positioning method (static, relative, absolute, fixed, sticky)
+    }
+
+    "top / right / bottom / left"{
+        Offsets an element when position is not static
+    }
+
+    "z-index"{
+        Controls stacking order of overlapping elements
+    }
+
+    "float"{
+        Positions elements to the left or right
+    }
+
+    "clear"{
+        Defines element behavior around floated elements
+    }
+
+    "visibility"{
+        Controls visibility (visible, hidden, collapse)
+    }
+    "display"{
+        Specifies display behavior of an element (block, inline, flex, grid, none)
+    }
+
+    "position"{
+        Defines positioning method (static, relative, absolute, fixed, sticky)
+    }
+
+    "top / right / bottom / left"{
+        Offsets an element when position is not static
+    }
+
+    "z-index"{
+        Controls stacking order of overlapping elements
+    }
+
+    "float"{
+        Positions elements to the left or right
+    }
+
+    "clear"{
+        Defines element behavior around floated elements
+    }
+
+    "visibility"{
+        Controls visibility (visible, hidden, collapse)
+    }
+
+CSS Grid
+    "display: grid"{
+        Enables grid layout
+    }
+
+    "grid-template-columns"{
+        Defines number and size of grid columns
+    }
+
+    "grid-template-rows"{
+        Defines number and size of grid rows
+    }
+
+    "grid-column"{
+        Specifies a column start/end
+    }
+
+    "grid-row"{
+        Specifies a row start/end
+    }
+
+    "gap"{
+        Defines spacing between rows/columns
+    }
+
+    "align-items"{
+        Aligns items vertically
+    }
+
+    "justify-items"{
+        Aligns items horizontally
+    }
+
+    "align-content"{
+        Aligns grid tracks vertically
+    }
+
+    "justify-content"{
+        Aligns grid tracks horizontally
+    }
+
+Effects & Visuals
+    "opacity"{
+        Defines the transparency of an element (0–1)
+    }
+
+    "cursor"{
+        Defines the type of cursor when hovering (pointer, default, move, text)
+    }
+
+    "box-shadow"{
+        Adds shadow around an element
+    }
+
+    "filter"{
+        Applies filters (blur, brightness, contrast, grayscale)
+    }
+
+    "clip-path"{
+        Clips element into a shape (circle, polygon, ellipse)
+    }
+
+    "object-fit"{
+        Defines how image/video fits inside container (cover, contain, fill)
+    }
+
+Transitions & Animations
+
+    "transition"{
+        Defines how property changes are animated
+    }
+
+    "transition-property"{
+        Specifies which property is animated
+    }
+
+    "transition-duration"{
+        Duration of the transition
+    }
+
+    "transition-timing-function"{
+        Defines easing (linear, ease, ease-in, ease-out, ease-in-out, cubic-bezier)
+    }
+
+    "transform"{
+        Applies transformations (rotate, scale, translate, skew)
+    }
+
+    "animation-name"{
+        Name of the animation keyframes
+    }
+
+    "animation-duration"{
+        Duration of the animation
+    }
+
+    "animation-timing-function"{
+        Defines easing for animation
+    }
+
+    "animation-delay"{
+        Delay before animation starts
+    }
+
+    "animation-iteration-count"{
+        Number of times animation repeats (number, infinite)
+    }
+
+    "animation-direction"{
+        Defines direction (normal, reverse, alternate)
+    }
+
+Responsive Design
+
+    "@media"{
+        Used for responsive queries
+    }
+
+    "@supports"{
+        Checks if browser supports a property
+    }
+
+    "@keyframes"{
+        Defines keyframes for animations
+    }
+
+    "@import"{
+        Imports external CSS
+    }
+
+Pseudo-classes & Pseudo-elements
+
+    ":hover"{
+        Applies styles when hovering over element
+    }
+
+    ":active"{
+        Applies styles when element is clicked
+    }
+
+    ":focus"{
+        Applies styles when input/element is focused
+    }
+
+    ":first-child"{
+        Targets the first child element
+    }
+
+    ":last-child"{
+        Targets the last child element
+    }
+
+    ":nth-child(n)"{
+        Targets the nth child element
+    }
+
+    ":not(selector)"{
+        Selects all elements except the given selector
+    }
+
+    "::before"{
+        Inserts content before an element
+    }
+
+    "::after"{
+        Inserts content after an element
+    }
+
+    "::placeholder"{
+        Styles placeholder text in inputs
+    }
+
+Tables
+
+    "border-collapse"{
+        Defines whether table borders are collapsed or separated (collapse, separate)
+    }
+
+    "border-spacing"{
+        Sets the space between cells when border-collapse: separate
+    }
+
+    "table-layout"{
+        Defines the algorithm for table layout (auto, fixed)
+    }
+
+    "caption-side"{
+        Position of table caption (top, bottom)
+    }
+
+    "empty-cells"{
+        Show or hide borders on empty table cells (show, hide)
+    }
+
+Lists
+    "list-style-type"{
+        Defines the type of list marker (disc, circle, square, decimal, none)
+    }
+
+    "list-style-position"{
+        Defines marker position (inside, outside)
+    }
+
+    "list-style-image"{
+        Uses an image as a list marker
+    }
+
+    "list-style"{
+        Shorthand for list-style-type, position, and image
+    }
+
+Multi-column Layout
+    "column-count"{
+        Defines the number of columns
+    }
+
+    "column-gap"{
+        Defines the gap between columns
+    }
+
+    "column-rule"{
+        Shorthand for column border (width, style, color)
+    }
+
+    "column-width"{
+        Defines the ideal column width
+    }
+
+    "columns"{
+        Shorthand for column-width and column-count
+    }
+
+Printing
+
+    "page-break-before"{
+        Forces a page break before an element
+    }
+
+    "page-break-after"{
+        Forces a page break after an element
+    }
+
+    "page-break-inside"{
+        Avoids page breaks inside elements (auto, avoid)
+    }
+
+    "@page"{
+        Defines page margins for print
+    }
+
+Content & Generated Elements
+    "content"{
+        Inserts generated content (::before, ::after)
+    }
+
+    "quotes"{
+        Defines quotation marks for <q> elements
+    }
+
+    "counter-reset"{
+        Creates/Resets a counter
+    }
+
+    "counter-increment"{
+        Increments a counter
+    }
+
+    "counter()"{
+        Inserts counter values in content
+    }
+
+CSS Variables (Custom Properties)
+    "--variable-name"{
+        Declares a CSS custom property (variable)
+    }
+
+    "var(--variable-name)"{
+        Uses a CSS custom property
+    }
+
+    ":root"{
+        Defines global scope for CSS variables
+    }
+
+Layout & Units
+
+    "object-position"{
+        Defines alignment of replaced elements (like images/videos) inside container
+    }
+
+    "aspect-ratio"{
+        Defines width-to-height ratio
+    }
+
+    "resize"{
+        Allows resizing of element (none, both, horizontal, vertical)
+    }
+
+    "scroll-behavior"{
+        Defines scroll animation (auto, smooth)
+    }
+
+    "scroll-snap-type"{
+        Defines snap behavior for scrolling (x, y, mandatory, proximity)
+    }
+
+    "scroll-snap-align"{
+        Defines how an element snaps (start, center, end)
+    }
+
+Advanced Filters & Blend Modes
+    "mix-blend-mode"{
+        Defines blending between element and background (multiply, screen, overlay, etc.)
+    }
+
+    "background-blend-mode"{
+        Defines blending between multiple backgrounds
+    }
+
+    "backdrop-filter"{
+        Applies filter effects to background behind an element (blur, brightness, etc.)
+    }
+
+Images & Media
+    "image-rendering"{
+        Defines rendering quality of images (auto, crisp-edges, pixelated)
+    }
+
+    "object-fit"{
+        Defines how media fits container (cover, contain, fill, none, scale-down)
+    }
+
+    "shape-outside"{
+        Defines shape for text wrapping around floated elements (circle, polygon)
+    }
+
+Accessibility & Interaction
+
+    "pointer-events"{
+        Defines if element reacts to mouse events (auto, none)
+    }
+
+    "user-select"{
+        Controls text selection (auto, none, text, all)
+    }
+
+    "caret-color"{
+        Defines color of text cursor
+    }
+
+    "accent-color"{
+        Defines color for form controls (checkboxes, radio buttons, range sliders)
+    }
+
+    "scrollbar-width"{
+        Defines scrollbar width (auto, thin, none)
+    }
+
+    "scrollbar-color"{
+        Defines scrollbar track and thumb colors
+    }
+
+New & Experimental CSS (Modern Features)
+
+    "container-type"{
+        Defines a container for container queries (size, inline-size)
+    }
+
+    "container-name"{
+        Names a container for targeted queries
+    }
+
+    ":has()"{
+        Selects element if it contains another element
+    }
+
+    ":is()"{
+        Simplifies multiple selectors
+    }
+
+    ":where()"{
+        Like :is(), but with zero specificity
+    }
+
+    "accent-color"{
+        Defines accent color for form controls
+    }
+
+    "view-transition-name"{
+        Enables page transition animations
+    }
+
+Colors & Gradients
+    "background-clip: text"{
+        Clips background to text, often used with gradients
+    }
+
+    "linear-gradient()"{
+        Creates a linear gradient background
+    }
+
+    "radial-gradient()"{
+        Creates a radial gradient background
+    }
+
+    "conic-gradient()"{
+        Creates a conic (pie-like) gradient
+    }
+
+    "repeating-linear-gradient()"{
+        Creates repeating linear gradient patterns
+    }
+
+    "repeating-radial-gradient()"{
+        Creates repeating radial gradient patterns
+    }
+
+Writing Modes & Text Control
+    "writing-mode"{
+        Defines text direction (horizontal-tb, vertical-rl, vertical-lr)
+    }
+
+    "direction"{
+        Defines text direction (ltr, rtl)
+    }
+
+    "text-orientation"{
+        Defines text orientation in vertical writing (mixed, upright, sideways)
+    }
+
+    "unicode-bidi"{
+        Handles bidirectional text rendering
+    }
+
+    "tab-size"{
+        Defines the width of tab characters
+    }
+
+    "hyphens"{
+        Defines word breaking with hyphens (none, manual, auto)
+    }
+
+    "text-overflow"{
+        Handles overflow text (clip, ellipsis)
+    }
+
+Advanced Selectors
+
+    ":only-child"{
+        Selects element if it’s the only child
+    }
+
+    ":only-of-type"{
+        Selects element if it’s the only one of its type
+    }
+
+    ":nth-of-type(n)"{
+        Selects the nth element of its type
+    }
+
+    ":first-of-type"{
+        Selects the first element of its type
+    }
+
+    ":last-of-type"{
+        Selects the last element of its type
+    }
+
+    ":empty"{
+        Selects elements with no children
+    }
+
+    ":target"{
+        Styles element targeted by an anchor (#id)
+    }
+
+3D & Transform Magic
+    "perspective"{
+        Defines perspective depth for 3D transformed elements
+    }
+
+    "perspective-origin"{
+        Sets the origin of the perspective
+    }
+
+    "transform-style"{
+        Defines 3D rendering style (flat, preserve-3d)
+    }
+
+    "backface-visibility"{
+        Controls visibility of back side of transformed element
+    }
+
+Media & Environment Queries
+    "@media (orientation: portrait)"{
+        Applies styles for portrait orientation
+    }
+
+    "@media (orientation: landscape)"{
+        Applies styles for landscape orientation
+    }
+
+    "@media (prefers-color-scheme: dark)"{
+        Applies styles when user prefers dark mode
+    }
+
+    "@media (prefers-reduced-motion: reduce)"{
+        Applies styles for reduced motion settings
+    }
+
+    "@media (prefers-contrast: more)"{
+        Applies styles for high-contrast mode
+    }
+
+    "env(safe-area-inset-top)"{
+        Handles notches on mobile screens
+    }
+
+CSS Counters & Numbering
+
+    "counter-reset"{
+        Creates/Resets a counter
+    }
+
+    "counter-increment"{
+        Increments a counter
+    }
+
+    "counter()"{
+        Displays counter value
+    }
+
+    "counters()"{
+        Displays nested counters with separators
+    }
+
+Scroll & Overflow Magic
+
+    "scroll-margin"{
+        Defines margin for scroll snapping
+    }
+
+    "scroll-padding"{
+        Defines padding for scroll snapping
+    }
+
+    "overscroll-behavior"{
+        Controls scroll chaining (auto, contain, none)
+    }
+
+    "overflow-anchor"{
+        Prevents layout shift when content loads
+    }
+
+    "scrollbar-gutter"{
+        Reserves space for scrollbars (auto, stable, both-edges)
+    }
+
+Forms & Inputs Styling
+
+    "appearance"{
+        Defines native UI rendering (auto, none)
+    }
+
+    "caret-shape"{
+        Defines cursor shape in input fields
+    }
+
+    "field-sizing"{
+        Defines input auto-sizing behavior (content, fixed)
+    }
+
+    "::file-selector-button"{
+        Styles the file upload button
+    }
+
+    "::marker"{
+        Styles list item markers
+    }
+
+    "::selection"{
+        Styles highlighted text
+    }
+
+    "accent-color"{
+        Defines accent color for form controls
+    }

@@ -29,7 +29,6 @@ Basics
     "git pull"{
         fetch and merge any commits from the tracking remote branch
     }
-
 Setup
     "git config --global user.name “[Username]” "{
         set a name that is identifiable for credit when review version history
