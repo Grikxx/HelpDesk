@@ -31,14 +31,45 @@ Basics
                 Bold / Italics / Underlines  
         }
 
-        "<a href="Links" target="_blank">"{
-                ancor tag
-                _blank	        Opens the linked document in a new window or tab
-                _self	        Opens the linked document in the same frame as it was clicked (this is default)
-                _parent     	Opens the linked document in the parent frame
-                _top	        Opens the linked document in the full body of the window
-                framename	Opens the linked document in the named iframe     
+        "<a href='' target='' download='' rel='' type='' hreflang=''>"{
+            href{
+                Specifies the URL of the link (absolute, relative, or fragment #id)
+            }
+    
+            target{
+                _self     → Opens link in the same window/tab (default)
+                _blank    → Opens link in a new window/tab
+                _parent   → Opens link in the parent frame
+                _top      → Opens link in the full body of the window
+                framename → Opens link in a named iframe
+            }
+    
+            download{
+                Prompts to download the linked file instead of navigating
+                Can specify a filename (e.g., download="file.pdf")
+            }
+    
+            rel{
+                Specifies the relationship between the current page and the linked page
+                noopener    → Prevents new page from controlling the opener page
+                noreferrer  → Hides the referrer information
+                author      → Link to the author of the document
+                help        → Link to a help document
+                license     → Link to copyright/license info
+                next        → Next document in a series
+                prev        → Previous document in a series
+                bookmark    → Permanent URL for bookmarking
+            }
+    
+            type{
+                Specifies the MIME type of the linked document (e.g., text/html, application/pdf)
+            }
+    
+            hreflang{
+                Specifies the language of the linked document (e.g., en, fr, hi)
+            }
         }
+
 
         "<img src="Imgs" width="x">"{
                 Images
