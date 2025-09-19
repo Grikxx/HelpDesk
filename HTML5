@@ -13,23 +13,23 @@ Basics
 
         "<head>"{
                 Head, where all meta data is putted    
-        }
+            }
 
-        "<div>"{
+        "<div>"{    
                 Create Divisions
-        }
+            }
 
         "<span>"{
                 inlines Divisions   
-        }
+            }
 
         "<h1/2/3/4/5/6>"{
                 Headings
-        }
+            }
 
         "<b/i/u>"{
                 Bold / Italics / Underlines  
-        }
+            }
 
         "<a href='' target='' download='' rel='' type='' hreflang=''>"{
             href{
@@ -68,12 +68,12 @@ Basics
             hreflang{
                 Specifies the language of the linked document (e.g., en, fr, hi)
             }
-        }
+            }
 
 
         "<img src="Imgs" width="x">"{
                 Images
-        }
+            }
 
         "<input type='' name='' value='' placeholder='' required readonly disabled maxlength='' minlength='' min='' max='' step='' checked multiple autofocus autocomplete='' pattern='' size='' form=''>"{
 
@@ -172,7 +172,7 @@ Basics
             form{
                 Links input to a specific <form> by its id
             }
-        }
+            }
         "<button type='' name='' value='' disabled autofocus form='' formaction='' formenctype='' formmethod='' formnovalidate formtarget=''>"{
             type{
                 button   → Generic button (default, does nothing unless scripted)
@@ -229,6 +229,6 @@ Basics
                 _top     → Opens in the full window
                 framename→ Opens in a named iframe
             }
-        }
+            }
         
         

@@ -130,3 +130,106 @@ Basics
     "Math.round()"{
         Rounds a number to the nearest integer
     }
+
+    "readFile(path, options, callback)"{
+        Asynchronously reads the contents of a file (Node.js)
+        [in fs module]
+        path{
+            The file path to read
+        }
+    
+        options{
+            Encoding (e.g., 'utf8') or an object with encoding and flag
+        }
+    
+        callback{
+            Function with (error, data) arguments
+            error → Error object if operation fails
+            data  → File contents if successful
+        }
+    }
+    
+    "readFileSync(path, options)"{
+        Synchronously reads the contents of a file (Node.js)
+        [in fs module]
+    
+        path{
+            The file path to read
+        }
+    
+        options{
+            Encoding (e.g., 'utf8') or an object with encoding and flag
+        }
+    
+        return{
+            Returns file contents directly
+        }
+    }
+    
+    "setTimeout(callback, delay, ...args)"{
+        Runs a function once after a given delay (in milliseconds)
+    
+        callback{
+            The function to execute
+        }
+    
+        delay{
+            Time in milliseconds before running callback
+        }
+    
+        args{
+            Optional parameters passed to the callback function
+        }
+    
+        return{
+            Returns a timeout ID (can be cleared with clearTimeout)
+        }
+    }
+    "import"{
+        Used to load ES6 modules (modern JavaScript)
+
+        syntax{
+            import defaultExport from 'module';
+            import * as name from 'module';
+            import { export1, export2 } from 'module';
+            import { export1 as alias } from 'module';
+            import 'module';   // run module without imports
+        }
+
+        defaultExport{
+            Imports the default export of a module
+        }
+
+        namedExport{
+            Imports specific exports by name (must match exactly)
+        }
+
+        alias{
+            Renames an import using "as"
+        }
+    }
+
+    "require('module')"{
+        CommonJS syntax (used in Node.js)
+
+        usage{
+            const module = require('module');
+        }
+
+        behavior{
+            Loads the module synchronously
+            Returns an object containing the module’s exports
+        }
+    }
+
+    "export"{
+        Used to make values available for import in other files
+
+        export{
+            export const name = value;       → Named export
+            export function func() {}        → Named export
+            export default function() {}     → Default export
+            export { value1, value2 };       → Export multiple items
+        }
+    }
+
